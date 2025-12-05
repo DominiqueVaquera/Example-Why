@@ -1,0 +1,24 @@
+{
+    "name": "Habitos Atomicos",
+    "short_name": "Habitos Atomicos",
+    "description": "Habitos Atomicos",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#181818",
+    "theme_color": "#181818",
+    "orientation": "any",
+    "icons": [
+      {
+        "src": "icon192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "icon512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }
