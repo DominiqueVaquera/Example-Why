@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Primitive Paint</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/paper.css">  
+	<link rel="icon" href="assets/images/color-circle.png">
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.2/paper-full.min.js"></script>
+</head>
+<body style="background: linear-gradient(90deg, #0086FF, #0066FF);">
+
+<header class="head">
+	Primitive Paint <img src="https://img.icons8.com/wired/64/ffffff/paint-brush.png"/></i>
+</header>
+	<div class="wrapper">
+		<a class="links" href="simplePen.html">Simple Pen <img src="https://img.icons8.com/ios/25/ffffff/pen.png"/> </a>
+		<a class="links" href="rectangle.html">Rectangle <img src="https://img.icons8.com/fluency-systems-regular/25/ffffff/rectangle.png"/> </i> </a>
+		<a class="links" href="circle.html">Circle <img src="https://img.icons8.com/ios/25/ffffff/circled.png"/></a>
+		<a class="links" href="ellipse.html">Ellipse <img src="https://img.icons8.com/fluency-systems-filled/25/ffffff/ellipse.png"/> </i></a>
+	</div>
+	<div class="footer">
+		<p class="footer-text"> Designed with <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/35/000000/
+			external-coffee-cup-ecology-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/> by <a href="https://github.com/ExpressHermes/Primitive-Paint" target="_blank"> Shivam Yadav & Team</p>
+
+	</div>
+	    <!-- Service Worker -->
+		<script>
+			if ('serviceWorker' in navigator) {
+			  window.addEventListener('load', () => {
+				navigator.serviceWorker.register('sw.js')
+				  .then(reg => console.log('✅ Service Worker registrado con éxito:', reg.scope))
+				  .catch(err => console.log('❌ Error al registrar el Service Worker:', err));
+			  });
+			}
+		</script>
+</body>
