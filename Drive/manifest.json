@@ -1,0 +1,21 @@
+{
+    "name": "Drive Mad Game",
+    "short_name": "Drive Mad Game",
+    "description": "Drive Mad Game",
+    "start_url": "./index.html",
+    "display": "fullscreen",
+    "background_color": "#181818",
+    "theme_color": "#181818",
+    "orientation": "any",
+    "icons": [
+      {
+        "src": "https://raw.githubusercontent.com/AngelSPerez/Example-Why/refs/heads/master/Drive/images/icons/icon192.PNG",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+
+  }
+
+
